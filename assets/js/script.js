@@ -10,7 +10,8 @@ const n5 = document.querySelector('#n5');
 
 submitbtn.addEventListener('click', function(event) {
     event.preventDefault();
-    if (event.target) {
+    //corrigir erro
+    if (n1 || n2 || n3|| n4 || n5) {
         indexmain.style.display = 'none';
         thankmain.style.display = 'flex';
     } else {
@@ -38,11 +39,3 @@ n4.addEventListener('click', function() {
 n5.addEventListener('click', function() {
     rating.innerHTML = '5'
 })
-
-//if (n1 || n2 || n3 || n4 || n5) {
-//    indexmain.style.display = 'none';
-  //  thankmain.style.display = 'flex';
-//} else {
-//    event.preventDefault();
-//}
-
