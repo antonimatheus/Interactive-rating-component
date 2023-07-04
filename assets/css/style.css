@@ -66,11 +66,13 @@ main {
 
 #title h1 {
     font-size: 25px;
+    text-shadow: 2px 2px 10px rgba(0, 0, 0, 0.4);
     color: var(--White);
 }
 
 #text {
     font-size: 13px;
+    text-shadow: 2px 2px 10px rgba(0, 0, 0, 0.4);
     color: var(--LightGrey);
 }
 
@@ -99,6 +101,7 @@ main {
 }
 
 .num:hover {
+    box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.4);
     background-color: var(--Orange);
 }
 
@@ -120,6 +123,7 @@ main {
 }
 
 #button input:hover {
+    box-shadow: 4px 3px 15px rgba(0, 0, 0, 0.4);
     color: var(--Orange);
     background-color: var(--White);
 }
@@ -163,6 +167,7 @@ main {
     padding: 5px 15px;
     font-size: 13px;
     border-radius: 20px;
+    text-shadow: 2px 2px 10px rgba(0, 0, 0, 0.4);
     color: var(--Orange);
     background-color: var(--DarkBlue);
 }
@@ -170,12 +175,14 @@ main {
 #ttitle h1 {
     font-size: 23px;
     text-align: center;
+    text-shadow: 2px 2px 10px rgba(0, 0, 0, 0.4);
     color: var(--White);
 }
 
 #ttext {
     font-size: 12px;
     text-align: center;
+    text-shadow: 2px 2px 10px rgba(0, 0, 0, 0.4);
     color: var(--LightGrey);
 }
 
